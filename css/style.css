@@ -1,0 +1,39 @@
+
+/* The <article> tag specifies independent, self-contained content. */
+article .main ~ h2,
+article .main ~ h2 + p {
+    width: 100%;
+    clear: both;
+}
+
+article .main ~ h3,
+article .main ~ p,
+article .main ~ .highlight {
+    width: 50%;
+}
+
+article .main ~ h3,
+article .main ~ p {
+    float: left;
+    box-sizing: border-box;
+    padding-right: 1rem;
+    clear: both;
+}
+
+article .main ~ .highlight {
+    float: right;
+    clear: right;
+    margin-bottom: 1rem;
+}
+
+.end-main {
+    clear: both;
+}
+
+article .end-main ~ p,
+article .end-main ~ h3,
+article .end-main ~ .highlight {
+    width: auto;
+    float: none;
+    clear: none;
+}
