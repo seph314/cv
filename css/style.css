@@ -1,22 +1,28 @@
-.blue-column{
-  background-color: #66b3ff;
-  border-radius: 0.2em;
+
+.color-0 {color:#fff !important; background-color:#0099cc !important}
+.color-1 {color:#fff !important; background-color:#335C8C !important}
+.color-2 {color:#fff !important; background-color:#559E54 !important}
+.color-3 {color:#fff !important; background-color:#6BB834 !important}
+.color-4 {color:#fff !important; background-color:#3782A0 !important}
+.color-5 {color:#fff !important; background-color:#0A2A37 !important}
+.color-6 {color:#fff !important; background-color:#006080 !important}
+
+
+.tagcloud ul li {
+	display: inline-block;
+	margin: 0 .3em .3em 0;
+	padding: 0;
+
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 1em;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
-.green-column{
-  background-color: #66ff66;
-
-}
-
-.red-column{
-  background-color: #ff6666;
-
-}
-
-.yellow-column{
-  background-color: #ffff66;
-
-}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
 
