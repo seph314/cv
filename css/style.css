@@ -8,6 +8,19 @@
 .color-6 {color:#fff !important; background-color:#006080 !important}
 
 
+
+
+.left { position: absolute; left: 0; top: 0; width: 80%; }
+.right { position: absolute; right: 0; top: 0; width: 20%;}
+
+
+.round {
+  border-radius: 50%;
+  width: 15em;
+  padding: 0.7em;
+}
+
+
 .tagcloud ul li {
 	display: inline-block;
 	margin: 0 .3em .3em 0;
